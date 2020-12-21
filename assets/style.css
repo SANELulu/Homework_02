@@ -28,7 +28,7 @@ p{
         width: 200px;
     }
   }
-  @media (min-width:769px){
+@media (min-width:769px){
       .imageEdits{
           height:350px;
       }
