@@ -1,3 +1,39 @@
-#footerBar{
-    color:rgb(70, 155, 230)
+*{
+    font-family: 'Exo', sans-serif;
+}
+html{
+    background-color:#C3BEA7;
+}
+p{
+    background-color:#D6D0B8;
+    color:#615D50;
+}
+.col{
+    background-color:#C3BEA7;
+}
+.footerColor{
+    background-color:#C3BEA7;
+    
+}
+.row{
+    background-color:#C3BEA7;
+}
+.bodyColor{
+    background-color:#C3BEA7;
+}
+.nav-link{
+    color:#ffff;
+}
+.nav-link:hover{
+    color:#F7AC41;
+}
+.imageEdits{
+    width: 200px;
+}
+img:hover{
+    
+}
+h3{
+    background-color:#a19d8a;
+    color:#fff;
 }
