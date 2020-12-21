@@ -11,10 +11,6 @@ p{
 .col{
     background-color:#C3BEA7;
 }
-.footerColor{
-    background-color:#C3BEA7;
-    
-}
 .row{
     background-color:#C3BEA7;
 }
@@ -27,12 +23,16 @@ p{
 .nav-link:hover{
     color:#F7AC41;
 }
-.imageEdits{
-    width: 200px;
-}
-img:hover{
-    
-}
+@media (max-width: 768px){
+    .imageEdits{
+        width: 200px;
+    }
+  }
+  @media (min-width:769px){
+      .imageEdits{
+          height:350px;
+      }
+  }
 h3{
     background-color:#a19d8a;
     color:#fff;
