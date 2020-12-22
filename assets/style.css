@@ -20,7 +20,7 @@ p{
 .nav-link{
     color:#ffff;
 }
-.nav-link:hover{
+.nav-link:hover, .card-link:hover {
     color:#F7AC41;
 }
 @media (max-width: 768px){
@@ -32,8 +32,15 @@ p{
       .imageEdits{
           height:350px;
       }
-  }
+  
+  
 h3{
     background-color:#a19d8a;
+    color:#fff;
+}
+.poster{
+    margin:auto;
+}
+.card-link{
     color:#fff;
 }
