@@ -1,6 +1,12 @@
 *{
     font-family: 'Exo', sans-serif;
 }
+.nav-link:hover, .card-link:hover {
+    color:#F7AC41;
+}
+.nav-link{
+    color:#ffff;
+}
 html{
     background-color:#C3BEA7;
 }
@@ -17,23 +23,10 @@ p{
 .bodyColor{
     background-color:#C3BEA7;
 }
-.nav-link{
-    color:#ffff;
+h3{
+    background-color:#a19d8a;
+    color:#fff;
 }
-.nav-link:hover, .card-link:hover {
-    color:#F7AC41;
-}
-@media (max-width: 768px){
-    .imageEdits{
-        width: 200px;
-    }
-  }
-@media (min-width:769px){
-      .imageEdits{
-          height:350px;
-      }
-  
-  
 h3{
     background-color:#a19d8a;
     color:#fff;
@@ -44,3 +37,13 @@ h3{
 .card-link{
     color:#fff;
 }
+@media (max-width: 768px){
+    .imageEdits{
+        width: 200px;
+    }
+  }
+@media (min-width:769px){
+      .imageEdits{
+          height:350px;
+      }  
+    }
